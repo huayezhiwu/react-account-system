@@ -1,3 +1,5 @@
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -2442,3 +2444,15 @@ In the future, we might start automatically compiling incompatible third-party m
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+
+
+部署到github上的方法
+1. npm install gh-pages --save-dev
+
+2. package.json add
+"homepage": "https://huayezhiwu.github.io/react-account-system/",
+"predeploy": "npm run build"
+"deploy": "gh-pages -d build"
+3.npm run deploy
+4.查看地址：https://huayezhiwu.github.io/react-account-system/
+
